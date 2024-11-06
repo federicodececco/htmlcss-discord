@@ -140,10 +140,14 @@ main p {
 
 ------------------------------*/
 
-main .third-bg {
+main .grey-bg {
+  background-color: #d3d3d3;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #d3d3d3;
+}
+main .white-bg {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .rectangle {
@@ -175,36 +179,31 @@ main .third-bg {
 }
 /* first piece of the main */
 
-main .first-bg {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .img-col.first {
   background-position: -30px;
   background-repeat: no-repeat;
   background-image: url("../img/item1.svg");
 }
-.written-col.first {
+.written-col.first, .written-col.third {
   padding-left: 30%px;
 }
-
-main .second-bg {
-  background-color: #d3d3d3;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
+/* second row */
 .img-col.second {
   background-position: 30px;
   background-repeat: no-repeat;
   background-image: url("../img/item2.svg");
 }
-
-.green {
-  background-color: #228b22;
+.written-col.first {
+  padding-right: 30%px;
+}
+/* third row */
+.img-col.third {
+  background-position: -20px;
+  background-repeat: no-repeat;
+  background-image: url("../img/item3.svg");
 }
 
+/* fourth row */
 /*---------------------------
 
     FOOTER
