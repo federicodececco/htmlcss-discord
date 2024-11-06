@@ -154,6 +154,22 @@ main .third-bg {
   align-content: center;
 }
 
+.img-col {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  border-width: 2px;
+
+  background-size: contain;
+}
+.written-col {
+  width: 40%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .third-bg .rectangle {
   height: 1000px;
 }
@@ -164,22 +180,13 @@ main .first-bg {
   padding-bottom: 40px;
 }
 
-.first-left-col {
-  display: inline-block;
-  width: 60%;
-  height: 100%;
-  border-width: 2px;
-  background-image: url("../img/item1.svg");
-  background-size: contain;
+.img-col.first {
   background-position: -30px;
   background-repeat: no-repeat;
+  background-image: url("../img/item1.svg");
 }
-.first-right-col {
-  width: 40%;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  padding-left: 120px;
+.written-col.first {
+  padding-left: 30%px;
 }
 
 main .second-bg {
@@ -188,11 +195,10 @@ main .second-bg {
   padding-bottom: 40px;
 }
 
-.first-bg .blue {
-  border-right-style: dashed;
-}
-.second-bg .blue {
-  border-left-style: dashed;
+.img-col.second {
+  background-position: 30px;
+  background-repeat: no-repeat;
+  background-image: url("../img/item2.svg");
 }
 
 .green {
