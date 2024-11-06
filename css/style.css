@@ -23,6 +23,12 @@ main.container > div > div {
   margin-right: auto;
   max-width: 1200px;
 }
+ul {
+  list-style-type: none;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
 
 /*---------------------------
 
@@ -41,6 +47,10 @@ h1 {
 }
 main p {
   font-size: 18px;
+}
+h4 {
+  color: #8ea1e1;
+  font-family: "Roboto", sans-serif;
 }
 
 /*---------------------------
@@ -170,8 +180,7 @@ main .white-bg {
 }
 
 .rectangle {
-  border-style: dashed;
-  border-width: 2px;
+  
   display: flex;
   align-content: center;
 }
@@ -233,19 +242,16 @@ footer .rectangle {
 
 .rectangle .small {
   flex-grow: 0.25;
-  background-color: #20b2aa;
   border-width: 2px;
-  border-color: white;
-  border-right-style: dashed;
-  border-bottom-style: dashed;
-  border-top-style: dashed;
+
+  
+  line-height: 1.7;
 }
 
 .rectangle .medium {
   width: 35%;
   color: #8ea1e1;
-  border-style: dashed;
-  border-width: 2px;
+ 
   display: flex;
   flex-direction: column;
 }
@@ -279,23 +285,23 @@ footer h3 {
 footer .last {
   height: 10%;
   font-size: 22px;
-  margin-top: auto;
-  background-color: #7fffd4;
+
   align-content: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 
-.feet {
-  font-size: 22px;
-  background-color: #ffb6c1;
-  display: flex;
-  border-width: 2px;
-  padding: 5px;
-  border-style: dashed;
-  display: inline-block;
+.last .btn.blue {
+  font: 14px;
+  padding: 8px 12px;
+}
+hr{
+  border: 1px solid #4A5882;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /*---------------------------
