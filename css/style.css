@@ -26,39 +26,45 @@ main.container > div > div {
 
 /*---------------------------
 
+    TYPOGRAPHY
+
+------------------------------*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*---------------------------
+
     HEADER
 
 ------------------------------*/
 
 .head {
-  min-height: 80px;
-
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
 .head-background {
-  background-color: #add8e6;
+  background-color: #255ee9;
+  padding: 20px;
 }
 
 .header {
   font-size: 22px;
-  background-color: #daa520;
-  border-width: 2px;
-  padding: 5px;
-  border-style: dashed;
 }
 /* Header layout styling: Aligns logo, links, and login button */
 .header.first {
-  min-width: 25%;
+  width: 15%;
 }
 .header.center {
   flex-grow: 1;
   text-align: center;
+  word-spacing: 25px;
 }
 .header.last {
   text-align: end;
-  min-width: 25%;
+  width: 15%;
 }
 
 /*---------------------------
@@ -68,22 +74,21 @@ main.container > div > div {
 ------------------------------*/
 
 .hero-bg {
-  background-color: #00008b;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .hero {
-  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .h-main {
-  background-color: #ee82ee;
-  width: 80%;
-  height: 80%;
-  border-width: 2px;
-  border-style: dashed;
+  padding: 20px 30px;
+  background-color: transparent;
+  text-align: center;
 }
 
 /*---------------------------
