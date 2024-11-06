@@ -1,0 +1,214 @@
+/*---------------------------
+
+        RESET   
+
+------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*---------------------------
+
+        GENERAL
+
+------------------------------*/
+section.container > div,
+footer.container > div,
+main.container > div > div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/*---------------------------
+
+    HEADER
+
+------------------------------*/
+
+.head {
+  min-height: 80px;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.head-background {
+  background-color: #add8e6;
+}
+
+.header {
+  font-size: 22px;
+  background-color: #daa520;
+  border-width: 2px;
+  padding: 5px;
+  border-style: dashed;
+}
+/* Header layout styling: Aligns logo, links, and login button */
+.header.first {
+  min-width: 25%;
+}
+.header.center {
+  flex-grow: 1;
+  text-align: center;
+}
+.header.last {
+  text-align: end;
+  min-width: 25%;
+}
+
+/*---------------------------
+
+    HERO
+
+------------------------------*/
+
+.hero-bg {
+  background-color: #00008b;
+}
+
+.hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-main {
+  background-color: #ee82ee;
+  width: 80%;
+  height: 80%;
+  border-width: 2px;
+  border-style: dashed;
+}
+
+/*---------------------------
+
+    MAIN
+
+------------------------------*/
+
+main .first-bg {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+main .second-bg {
+  background-color: #d3d3d3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+main .third-bg {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #d3d3d3;
+}
+
+.rectangle {
+  height: 600px;
+  border-style: dashed;
+  border-width: 2px;
+  display: flex;
+}
+
+.third-bg .rectangle {
+  height: 1000px;
+}
+/* Primary background color for main content rectangles */
+.blue {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  border-width: 2px;
+  background-color: #1e90ff;
+}
+.first-bg .blue {
+  border-right-style: dashed;
+}
+.second-bg .blue {
+  border-left-style: dashed;
+}
+
+.pink {
+  background-color: #ffc0cb;
+  height: 100%;
+  width: 40%;
+  display: inline-block;
+  justify-content: start;
+}
+.green {
+  background-color: #228b22;
+}
+
+/*---------------------------
+
+    FOOTER
+
+------------------------------*/
+
+footer {
+  padding-top: 10px;
+  background-color: #23272a;
+}
+footer .rectangle {
+  height: 500px;
+
+  display: flex;
+}
+
+.rectangle .small {
+  flex-grow: 0.25;
+  background-color: #20b2aa;
+  border-width: 2px;
+  border-color: white;
+  border-right-style: dashed;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+}
+
+.rectangle .medium {
+  width: 35%;
+  background-color: #ffb6c1;
+  border-style: dashed;
+  border-width: 2px;
+}
+
+footer .last {
+  height: 10%;
+  font-size: 22px;
+  margin-top: auto;
+  background-color: #7fffd4;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.feet {
+  font-size: 22px;
+  background-color: #ffb6c1;
+  display: flex;
+  border-width: 2px;
+  padding: 5px;
+  border-style: dashed;
+  display: inline-block;
+}
+.button {
+  font-size: 22px;
+  background-color: #ffb6c1;
+  display: flex;
+  border-width: 2px;
+  padding: 5px;
+  border-style: dashed;
+  display: inline-block;
+}
+/*---------------------------
+
+    Debug
+
+------------------------------*/
