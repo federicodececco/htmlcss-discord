@@ -48,6 +48,9 @@ main p {
     BUTTON
 
 ------------------------------*/
+button > i{
+  margin-right: 10px;
+}
 
 .btn {
   border-radius: 20px;
