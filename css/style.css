@@ -151,23 +151,19 @@ main .white-bg {
 }
 
 .rectangle {
-  height: 600px;
   border-style: dashed;
   border-width: 2px;
   display: flex;
   align-content: center;
 }
 
-.img-col {
-  display: inline-block;
-  width: 60%;
-  height: 100%;
-  border-width: 2px;
-
-  background-size: contain;
+.img-col img {
+  width: 100%;
+  height: auto;
 }
+
 .written-col {
-  width: 40%;
+  width: 30%;
   color: black;
   display: flex;
   flex-direction: column;
@@ -177,33 +173,23 @@ main .white-bg {
 .third-bg .rectangle {
   height: 1000px;
 }
-/* first piece of the main */
 
-.img-col.first {
-  background-position: -30px;
-  background-repeat: no-repeat;
-  background-image: url("../img/item1.svg");
+.written-col.first,
+.written-col.third {
+  margin-left: 10%;
 }
-.written-col.first, .written-col.third {
-  padding-left: 30%px;
-}
-/* second row */
-.img-col.second {
-  background-position: 30px;
-  background-repeat: no-repeat;
-  background-image: url("../img/item2.svg");
-}
-.written-col.first {
-  padding-right: 30%px;
-}
-/* third row */
-.img-col.third {
-  background-position: -20px;
-  background-repeat: no-repeat;
-  background-image: url("../img/item3.svg");
+.written-col.second{
+  margin-right: 10%;
 }
 
 /* fourth row */
+
+.rectangle.fourth {
+  background-image: url("../img/item4-big.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /*---------------------------
 
     FOOTER
