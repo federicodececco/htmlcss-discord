@@ -32,6 +32,37 @@ main.container > div > div {
 
 body {
   font-family: "Roboto", sans-serif;
+  color: white;
+  line-height: 1.5;
+  font-size: 18px;
+}
+h1 {
+  font-size: 40px;
+
+  padding-bottom: 40px;
+}
+/*---------------------------
+
+    BUTTON
+
+------------------------------*/
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.btn.large {
+  font-size: 20px;
+  padding: 10px 30px;
+}
+.btn.large.black{
+  margin-left: 20px;
+  background-color: #23272A;
+  color: white;
 }
 
 /*---------------------------
@@ -41,6 +72,7 @@ body {
 ------------------------------*/
 
 .head {
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,14 +83,14 @@ body {
 }
 
 .header {
-  font-size: 22px;
+  font-size: 24px;
 }
 /* Header layout styling: Aligns logo, links, and login button */
 .header.first {
-  width: 15%;
+  min-width: 15%;
 }
 .header.center {
-  flex-grow: 1;
+  min-width: 70%;
   text-align: center;
   word-spacing: 25px;
 }
@@ -83,12 +115,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  
 }
 
 .h-main {
   padding: 20px 30px;
   background-color: transparent;
   text-align: center;
+}
+.hero:first-child{
+  padding-top: 130px;
+}
+.hero:last-child{
+  padding-bottom: 170px;
 }
 
 /*---------------------------
